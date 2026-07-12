@@ -13,9 +13,9 @@ detector = ToxicityDetector()
 
 # Building the discord bot
 intents = discord.Intents.default()
-intents.message_content = True        # Allows the bot to read what is typed in the chat
+intents.message_content = True        
 
-bot = commands.Bot(command_prefix="!", intents=intents)  # Typing ! will activate the bot
+bot = commands.Bot(command_prefix="!", intents=intents)  
 
 # Main code
 @bot.event
@@ -23,7 +23,7 @@ async def on_ready():
     print(f"Bot online as {bot.user.name}")
 
 @bot.command()
-@commands.has_permissions(administrator=True)   # works only when the person has administrator permissions
+@commands.has_permissions(administrator=True)  
 async def test(ctx):
     # !test activates the bot
     await ctx.send("The bot is working")
