@@ -1,0 +1,9 @@
+venv/
+.env
+__pycache__/
+*.pyc
+images/
+dataset/
+run_bot.bat
+models/
+.vscode
