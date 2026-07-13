@@ -11,7 +11,7 @@
 
 ## Overview
 
-<b>SafeChat</b> is a Python-based moderation tool that uses <b>Natural Language Processing (NLP)</b> and a <b>Logistic Regression machine learning model</b> to classify toxic and hateful messages in real time. By continuously monitoring server conversations, the bot automatically detects harmful content and performs moderation actions such as deleting messages and notifying moderators, helping create a safer and more welcoming Discord community.
+<b>SafeChat</b> is a Python-based moderation tool that uses <b>Natural Language Processing (NLP)</b> and a <b>TF-IDF + MultiOutput Linear Support Vector Machine (LinearSVC)</b> to classify toxic and hateful messages in real time. By continuously monitoring server conversations, the bot automatically detects harmful content and performs moderation actions such as deleting messages and notifying moderators, helping create a safer and more welcoming Discord community.
 
 ---
 
